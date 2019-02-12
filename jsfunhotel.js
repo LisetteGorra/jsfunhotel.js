@@ -6,6 +6,7 @@ var roomPrices = [75, 85, 100, 125, 200];
 
 var availableRoomNumbers = [[101, 102, 103, 104],[201, 203],[301, 302, 303, 304],[401, 402, 403, 404],[501, 502]];
 
+<<<<<<< HEAD
 var bookedRooms = [[],[],[],[],[]];
 
 function availableRoomsQty() {
@@ -20,3 +21,6 @@ function totalAvailableRoomsReport(){
     console.log("Total Available Room Count:", availableRoomsQty());
 }
 // console.log("Total Available Room Count:", totalAvailableRoomQty);
+=======
+
+>>>>>>> a4a18463bd12f64ca8571cf7d3f30073ac3d17d5
