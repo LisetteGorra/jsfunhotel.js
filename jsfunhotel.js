@@ -16,5 +16,7 @@ function availableRoomsQty() {
     }
     return totalAvailableRoomsQty;
 }
-
+function totalAvailableRoomsReport(){
+    console.log("Total Available Room Count:", availableRoomsQty());
+}
 // console.log("Total Available Room Count:", totalAvailableRoomQty);
