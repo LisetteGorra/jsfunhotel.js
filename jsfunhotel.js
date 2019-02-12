@@ -6,7 +6,6 @@ var roomPrices = [75, 85, 100, 125, 200];
 
 var availableRoomNumbers = [[101, 102, 103, 104],[201, 203],[301, 302, 303, 304],[401, 402, 403, 404],[501, 502]];
 
-<<<<<<< HEAD
 var bookedRooms = [[],[],[],[],[]];
 
 function availableRoomsQty() {
@@ -21,6 +20,30 @@ function totalAvailableRoomsReport(){
     console.log("Total Available Room Count:", availableRoomsQty());
 }
 // console.log("Total Available Room Count:", totalAvailableRoomQty);
-=======
 
->>>>>>> a4a18463bd12f64ca8571cf7d3f30073ac3d17d5
+
+// var availableRoomNumbers = [[101, 102, 103, 104],[201, 203],[301, 302, 303, 304],[401, 402, 403, 404],[501, 502]];
+
+// var bookedRooms = [[],[],[],[],[]];
+
+function bookTwin(){
+    bookedRooms[0].push(availableRoomNumbers[0].pop());
+    
+}
+function bookSingle(){
+    bookedRooms[1].push(availableRoomNumbers[1].pop());
+    
+}
+function bookDouble(){
+    bookedRooms[2].push(availableRoomNumbers[2].pop());
+    
+}
+function bookQueen(){
+    bookedRooms[3].push(availableRoomNumbers[3].pop());
+    
+}
+function bookKing(){
+    bookedRooms[4].push(availableRoomNumbers[4].pop());
+    
+}
+
