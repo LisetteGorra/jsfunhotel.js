@@ -22,10 +22,6 @@ function totalAvailableRoomsReport(){
 // console.log("Total Available Room Count:", totalAvailableRoomQty);
 
 
-// var availableRoomNumbers = [[101, 102, 103, 104],[201, 203],[301, 302, 303, 304],[401, 402, 403, 404],[501, 502]];
-
-// var bookedRooms = [[],[],[],[],[]];
-
 function bookTwin(){
     bookedRooms[0].push(availableRoomNumbers[0].pop());
     
@@ -47,3 +43,12 @@ function bookKing(){
     
 }
 
+function salesReport(){
+    var totalSales = 0;
+    
+    for (var i =0; i < bookedRooms.length; i++) {
+       totalSales += bookedRooms[i].length * roomPrices[i];
+
+    }
+    
+}
