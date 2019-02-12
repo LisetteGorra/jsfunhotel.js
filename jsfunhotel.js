@@ -47,8 +47,9 @@ function salesReport(){
     var totalSales = 0;
     
     for (var i =0; i < bookedRooms.length; i++) {
-       totalSales += bookedRooms[i].length * roomPrices[i];
+       totalSales += bookedRooms[i].length * roomPrices[i]
 
     }
+ return totalSales;
     
 }
